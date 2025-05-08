@@ -1,23 +1,6 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>article</title>
-</head>
-<body>
-    
-    <ul>
-        <li>
-            <a href="/">Accueil</a>
-        </li>
-        <li>
-            <a href="/contact/">Contact</a>
-        </li>
-        <li>
-            <a href="/article/">Article</a>
-        </li>
-    </ul>
+{% extends 'template_base.html' %}
 
+{% block contenu%}
     <h1>Articles</h1>
 
     <br>
@@ -34,5 +17,4 @@
         </li>
 
     </ul>
-</body>
-</html>
+{% endblock%}
